@@ -1,0 +1,29 @@
+{
+  "name": "prstat",
+  "version": "0.0.0",
+  "description": "use prstat to analyze your applications",
+  "bin": "bin/cmd.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joaquimserafim/prstat.git"
+  },
+  "homepage": "https://github.com/joaquimserafim/prstat",
+  "keywords": [
+    "prstat",
+    "monitoring",
+    "performance",
+    "cpu_usage",
+    "memory_usage"
+  ],
+  "author": "@joaquimserafim",
+  "license": "ISC",
+  "dependencies": {
+    "lasync": "^1.1.0"
+  }
+}
