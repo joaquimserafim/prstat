@@ -31,7 +31,7 @@ function findPID (app, cb) {
 function prstat (pid, cb) {
   if (isNaN(pid) || !pid) return cb(new Error('don\'t exist any application running.'));
 
-  var run = spawn('prstat', ['-cmL', '-p', pid]);
+  var run = spawn('prstat', ['-cL', '-p', pid]);
 
   run.stdout.on('data', function (data) {
     cb(null, data);
